@@ -1,0 +1,18 @@
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: flex-end;
+    padding: 30px;
+
+    border-bottom: var(--line-thickness) solid var(--line-color); /* Match hr style */
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}

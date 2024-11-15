@@ -1,0 +1,55 @@
+
+:root {
+    --line-thickness: 2px;
+    --line-color: black;
+    --title-font-size: 30px;
+    --para-font-size: 20px;
+}
+
+hr {
+    border: none;
+    height: var(--line-thickness); /* Use the same thickness */
+    background-color: var(--line-color); /* Use the same color */
+    width: 100%; /* Optional: Adjust based on your layout */
+    margin: 0; /* Optional: Reset default margins */
+}
+
+.flex-container-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-page{
+    height: 100vh;
+}
+
+
+.project-img-section , .project-description-section{
+    flex: 1;
+    height: 100%;
+}
+
+.project-description-section{
+    margin: 0px 30px;
+    gap: 30px;
+    border-left: var(--line-thickness) solid var(--line-color); /* Match hr style */
+}
+
+.project-img-section{
+    gap: 20px;
+    font-size: var(--title-font-size);
+}
+
+.project-description{
+    font-size: var(--para-font-size);
+    max-width: 500px;
+}

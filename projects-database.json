@@ -1,0 +1,11 @@
+
+
+{
+    "isole" : 
+    {
+        "name" : "I-Sole",
+        "tech-stack" : ["HTML", "CSS", "React", "Python", "Flask", "Google-Firestore", "AWS"],
+        "description" : "this is how you do it bitch",
+        "images": "./I-Sole-images"
+    }
+}
